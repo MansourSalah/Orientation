@@ -1,0 +1,133 @@
+{
+    "filieres":[
+        {
+            "nom":"gestion entreprise",
+            "option_bac":[1,2,3,4],
+            "loisirs":[4,2,5,7],
+            "ecoles":["enset rabat 12 57","enset mohammedia 12 46","est fes 12 67","est essaouira 12 44","est safi 12 45","est oujda 12 77","ens tetouan 12 68","encg settat 14 46","est berrechid 12 46","est meknese 12 67","est agadir 12 44","fsjes agadir 10 44","fsjes casablanca 10 46","fsjes el-jadida 10 46","fsjes fes 10 67","fsjes kenitra 10 57","fsjes marrakech 10 45","fsjes meknes 10 67","fsjes oujda 10 77","fsjes rabat 10 57","fsjes sale 10 57","fsjes settat 10 46","fsjes tanger 10 68","fsjes tetouan 10 68"]
+        },
+        {
+            "nom":"comptabilite",
+            "option_bac":[1,2,3,4],
+            "loisirs":[7],
+            "ecoles":["est fes 12 67","est oujda 12 77","est meknes 12 67","fsjes agadir 10 44","fsjes casablanca 10 46","fsjes el-jadida 10 46","fsjes fes 10 67","fsjes kenitra 10 57","fsjes marrakech 10 45","fsjes meknes 10 67","fsjes oujda 10 77","fsjes rabat 10 57","fsjes sale 10 57","fsjes settat 10 46","fsjes tanger 10 68","fsjes tetouan 10 68"]
+        },
+        {
+            "nom":"sciences juridiques",
+            "option_bac":[1,3],
+            "loisirs":[5],
+            "ecoles":["fsjes agadir 10 44","fsjes casablanca 10 46","fsjesam agadir 10 44","fsjes el-jadida 10 46","fsjes fes 10 67","fsjes kenitra 10 57","fsjes marrakech 10 45","fsjes meknes 10 67","fsjes oujda 10 77","fsjes rabat 10 57","fsjes sale 10 57","fsjes settat 10 46","fsjes tanger 10 68","fsjes tetouan 10 68"]
+        },
+        
+        {
+            "nom":"tourisme",
+            "option_bac":[1,2,3],
+            "loisirs":[8,9,10,11],
+            "ecoles":["est oujda 12 77","est meknes 12 67","est essaouira 12 44"]
+        },
+        {
+            "nom":"marcketing",
+            "option_bac":[1,2,3],
+            "loisirs":[11,2,7,4],
+            "ecoles":["est sale 12 57","est casablanca 12 46","enset mohammedia 12 46","est fes 12 67","est oujda 12 77","est meknes 12 67","est agadir 12 44"]
+        },
+        {
+            "nom":"audio visuel",
+            "option_bac":[3,4,5],
+            "loisirs":[12,13,14],
+            "ecoles":["ens tetouan 12 68"]
+            
+        },
+        {
+            "nom":"industries",
+            "option_bac":[3,4,5],
+            "loisirs":[1,15],
+            "ecoles":["est safi 12 45","est oujda 12 77","est berrechid 46","est meknes 12 67","est agadir 12 44"]
+        },
+        {
+            "nom":"electrique",
+            "option_bac":[3,4,5],
+            "loisirs":[1,15],
+            "ecoles":["est sale 12 57","enset rabat 12 57","est casablanca 12 46","enset mohammedia 12 46","est fes 12 67","est oujda 12 77","est berrechid 12 46","est meknes 12 67","est agadir 12 44"]
+        },
+        {
+            "nom":"batiment",
+            "option_bac":[3,4,5],
+            "loisirs":[11,8,15],
+            "ecoles":["est sale 12 57","est agadir 12 57"]
+        },
+        {
+            "nom":"reseau informatique",
+            "option_bac":[3,4,5],
+            "loisirs":[14,15,3],
+            "ecoles":["est agadir 12 57","ens tetouan 12 68","est oujda 12 77","est fes 12 67","est casablanca 12 46","est rabat 12 57","est sale 12 57"]
+        },
+        {
+            "nom":"developpement informatique",
+            "option_bac":[3,4,5],
+            "loisirs":[14,16,17],
+            "ecoles":["ensam meknes 12 67","est meknes 12 67","est berrechid 12 46","ens tetouan 12 68","est oujda 12 77","fst marrakech 12 45","est safi 12 45","est essaouira 12 44","est fes 12 67","est casablanca 12 46","est sale 12 57"]
+        },
+        {
+            "nom":"energetique",
+            "option_bac":[3,4,5],
+            "loisirs":[16],
+            "ecoles":["enset rabat 12 57","est fes 12 67","est berrechid 12 46","est meknes 12 67"]
+        },
+        {
+            "nom":"assistante dentaire",
+            "option_bac":[3,4],
+            "loisirs":[8,9,16],
+            "ecoles":["fmd rabat 13 57","fmd casablanca 13 46"]
+        },
+        {
+            "nom":"procedes",
+            "option_bac":[3,4],
+            "loisirs":[16,18],
+            "ecoles":["est casablanca 12 46","est fes 12 67","est sale 12 57"]
+        },
+        {
+            "nom":"logistique",
+            "option_bac":[2,3,4],
+            "loisirs":[10,2,4],
+            "ecoles":["est agadir 12 44","est oujda 12 77"]
+        },
+        {
+            "nom":"biologie",
+            "option_bac":[3,4],
+            "loisirs":[16,19],
+            "ecoles":["ens tetouan 12 68","fst marrakech 12 45","est fes 12 67"]
+        },
+        {
+            "nom":"Agronomie ",
+            "option_bac":[3],
+            "loisirs":[20,18,11],
+            "ecoles":["est oujda 12 77","est fes 12 67","est agadir 12 44"]
+        },
+        {
+            "nom":"math",
+            "option_bac":[3,4,5],
+            "loisirs":[3,11,16],
+            "ecoles":["est agadir 12 44","est fes 12 67","fst al-hoceima 12 68","fst mohammedia 12 46","fst beni-mellal 12 56","fst errachidia 12 65","fst fes 12 67","fst settat 12 46","fst marrakech 12 45","fst tanger 12 68"]
+        },
+        {
+            "nom":"geographie",
+            "option_bac":[1],
+            "loisirs":[5,21],
+            "ecoles":["fl agadir 10 44","fl casablanca 10 46","fl beni-mellal 10 56","fl fes 10 67","fl el-jadida 10 46","fl kenitra 10 57","fl marrakech 10 45","fl meknes 10 67","fl oujda 10 77","fl rabat 10 57","fl tetouan 10 68"]
+        },
+        {
+            "nom":"francais",
+            "option_bac":[1],
+            "loisirs":[5,6,10],
+            "ecoles":["fl agadir 10 44","fl casablanca 10 46","fl beni-mellal 10 56","fl fes 10 67","fl el-jadida 10 46","fl kenitra 10 57","fl marrakech 10 45","fl meknes 10 67","fl oujda 10 77","fl rabat 10 57","fl tetouan 10 68"]
+        },
+        {
+            "nom":"anglais",
+            "option_bac":[1],
+            "loisirs":[5,6,10],
+            "ecoles":["fl agadir 10 44","fl casablanca 10 46","fl beni-mellal 10 56","fl fes 10 67","fl el-jadida 10 46","fl kenitra 10 57","fl marrakech 10 45","fl meknes 10 67","fl oujda 10 77","fl rabat 10 57","fl tetouan 10 68"]
+        }
+
+    ]
+}

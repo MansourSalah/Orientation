@@ -1,0 +1,29 @@
+.mybtn {
+    margin-left: 73%;
+}
+
+@media only screen and (max-width: 1440px ) {   
+    .mybtn {
+        margin-left: 73%; 
+    }
+}
+@media only screen and (max-width: 1024px ) {   
+    .mybtn {
+        margin-left: 68%; 
+    }
+}
+@media only screen and (max-width: 425px ) {
+    .mybtn {
+        margin-left: 50%; 
+    }   
+}
+@media only screen and (max-width: 375px ) {
+    .mybtn {
+        margin-left: 42%;
+    }    
+}
+@media only screen and (max-width: 320px ) {
+    .mybtn {
+        margin-left: 31%;
+    }    
+}

@@ -1,0 +1,44 @@
+{% extends 'head.html' %}
+
+{% block content %}
+		<section id="contact"  style="margin-top: 10%;">
+			
+			<div class="color-overlay">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-sm-offset-2 form-content ptb100">   
+              <div class="panel panel-info">
+                <div class="panel-heading">Notes de baccalauréat national et regional</div>
+                <div class="panel-body">                
+                  <form action="\loisir" method="GET" class="form wow fadeIn" data-wow-delay=".25s">
+                    <div class="row">
+                      <input type="number"  min="0" max="20" step="0.1" class="form-control" name="ma" placeholder="Mathématique"><br>
+                    </div>
+                    <div class="row">
+                      <input type="number"  min="0" max="20" step="0.1" class="form-control" name="ph" placeholder="Physique & chimie"><br>
+                    </div>
+                    <div class="row">
+                      <input type="number"  min="0" max="20" class="form-control" name="sc" placeholder="Science de vie & terre"><br>
+                    </div>
+                    <div class="row">
+                      <input type="number"  min="0" max="20" class="form-control" name="fr" placeholder="Français"><br>
+                    </div>	
+                    <div class="row">
+                      <input type="number"  min="0" max="20" class="form-control" name="an" placeholder="Anglais"><br>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-1" ><button type="submit" class="btn btn-info" name="btn" value ="p"><i class="fa fa-arrow-left" aria-hidden="true"></i></button> </div>
+                        <div class="col-sm-10" > </div>
+                        <div class="col-sm-1 " ><button type="submit" class="btn btn-info" name="btn" value="s"><i class="fa fa-arrow-right" aria-hidden="true"></i></button></div>
+                    </div>	
+                   				
+                  </form>
+                </div>
+              </div>
+
+						</div>
+					</div> <!-- //row -->
+				</div> <!-- //container -->
+			</div>
+    </section>
+{% endblock %}

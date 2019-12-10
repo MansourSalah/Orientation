@@ -1,0 +1,153 @@
+{% extends 'head.html' %}
+
+{% block content %}
+		<section id="contact"  style="margin-top: 5%;">
+			
+			<div class="color-overlay">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-sm-offset-2 form-content ptb100">
+      
+           
+
+              <div class="panel panel-info">
+                <div class="panel-heading">Votre centres d'interet</div>
+                <div class="panel-body">                
+                  <form action="\resultat" method="GET" class="form wow fadeIn" data-wow-delay=".25s">
+                    <div class="row">
+                        <div class="col-sm-4" >
+                          <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="1" name="ch1">Réparer des choses
+                          </label>
+                        </div>
+                        <div class="col-sm-4" >
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="2" name="ch2">Vendre des produits 
+                              </label>
+                        </div>
+                        <div class="col-sm-4" >
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="3" name="ch3">Jouer aux échecs 
+                            </label>
+                        </div>
+                    </div><br>	
+                    <div class="row">
+                        <div class="col-sm-4" >
+                          <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="4" name="ch4">Jouer à des jeux de société 
+                          </label>
+                        </div>
+                        <div class="col-sm-4" >
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="5" name="ch5">Lire le journal
+                              </label>
+                        </div>
+                        <div class="col-sm-4" >
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="6" name="ch6">Écrire des romans
+                            </label>
+                        </div>
+                    </div><br>
+                    <div class="row">
+                        <div class="col-sm-4" >
+                          <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="7" name="ch7">Planifier mes finances
+                          </label>
+                        </div>
+                        <div class="col-sm-4" >
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="8" name="ch8">Conseiller quelqu’un
+                              </label>
+                        </div>
+                        <div class="col-sm-4" >
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="9" name="ch9">Enseigner quelqu’un
+                            </label>
+                        </div>
+                    </div><br>
+                    <div class="row">
+                        <div class="col-sm-4" >
+                          <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="10" name="ch10">Parler une langue étrangère
+                          </label>
+                        </div>
+                        <div class="col-sm-4" >
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="11" name="ch11">Sport
+                              </label>
+                        </div>
+                        <div class="col-sm-4" >
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="12" name="ch12">Jouer d'un instrument de musique
+                            </label>
+                        </div>
+                    </div><br>	
+                    <div class="row">
+                        <div class="col-sm-4" >
+                          <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="13" name="ch13">Jouer (acteur)
+                          </label>
+                        </div>
+                        <div class="col-sm-4" >
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="14" name="ch14">naviguer sur internet
+                              </label>
+                        </div>
+                        <div class="col-sm-4" >
+                            <label class="form-check-label">
+                                <input type="checkbox" class="form-check-input" value="15" name="ch15">Voyages et déplacements
+                            </label>
+                        </div>
+                    </div><br>
+                    <div class="row">
+                      <div class="col-sm-4" >
+                        <label class="form-check-label">
+                          <input type="checkbox" class="form-check-input" value="16" name="ch16">lire les articles scientifiques
+                        </label>
+                      </div>
+                      <div class="col-sm-4" >
+                          <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input" value="17" name="ch17">suivre les nouveautés technologiques
+                            </label>
+                      </div>
+                      <div class="col-sm-4" >
+                          <label class="form-check-label">
+                              <input type="checkbox" class="form-check-input" value="18" name="ch18">Préservation de l'environnement
+                          </label>
+                      </div>
+                  </div><br>
+                  <div class="row">
+                    <div class="col-sm-4" >
+                      <label class="form-check-label">
+                        <input type="checkbox" class="form-check-input" value="19" name="ch19">Élevage d'animaux
+                      </label>
+                    </div>
+                    <div class="col-sm-4" >
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="20" name="ch20">Régime alimentaire 
+                          </label>
+                    </div>
+                    <div class="col-sm-4" >
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" value="21" name="ch21">Regarder des cartes
+                        </label>
+                    </div>
+                </div><br>
+                <div class="row">
+                    <div class="col-sm-11" > </div>
+                    <div class="col-sm-1" > 
+                      <button type="submit" class="btn btn-info" ><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                  </div>
+                </div>	
+                   				
+                  </form>
+                </div>
+              </div>
+
+						</div>
+					</div> <!-- //row -->
+				</div> <!-- //container -->
+			</div>
+		</section>
+		<!-- ========= //End footer ========= -->
+{% endblock %}

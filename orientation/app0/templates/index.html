@@ -1,0 +1,63 @@
+{% extends 'head.html' %}
+
+{% block content %}
+   <!-- ============== Start contact section ============== -->
+		<section id="contact"  style="margin-top: 10%;">	
+			<div class="color-overlay">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-sm-offset-2 form-content ptb100">
+                <div class="panel panel-info">
+                <div class="panel-heading">Informations vous concernant !!</div>
+                <div class="panel-body">                
+                  <form action="\note" method="GET" class="form wow fadeIn" data-wow-delay=".25s">
+                    <div class="row">
+                          <select class="form-control"  name="option_bac">
+                            <option selected>Votre filiere du baccalauréat</option>
+                            <option value="1">Lettre & sciences humaines</option>
+                            <option value="2">Economie</option>
+                            <option value="3">Sciences phisique et chimie</option>
+                            <option value="3">Sciences de la vie et la terre</option>
+                            <option value="4">Sciences mathématiques A</option>
+                            <option value="4">Sciences mathématiques B</option>
+                            <option value="5">Sciences et technologies mécaniques</option>
+                            <option value="5">Sciences et technologies électrique</option>
+                          </select>
+                    </div><br>
+                    <div class="row">
+                        <select class="form-control"  name="region">
+                            <option selected>Région où vous habitez</option>
+                            <option value="57">Rabat, Salé, Kénitra</option>
+                            <option value="46">Casablanca, Settat</option>
+                            <option value="67">Fès, Meknès</option>
+                            <option value="45">Marrakech, Safi</option>
+                            <option value="68">Tanger, Tétouan, Al Hoceïma</option>
+                            <option value="56">Béni Mellal, Khénifra</option>
+                            <option value="65">Drâa, Tafilalet</option>
+                            <option value="44">Souss, Massa</option>
+                            <option value="33">Guelmim, Oued Noun</option>
+                            <option value="22">Laâyoune, Sakia El Hamra</option>
+                            <option value="11">Dakhla, Oued Ed Dahab</option>
+                            <option value="77">Oriental</option>
+                          </select>
+                    </div><br>
+                    <div class="row">
+                        <div class="col-sm-11" > </div>
+                        <div class="col-sm-1" > 
+                          <button type="submit" class="btn btn-info" ><i class="fa fa-arrow-right" aria-hidden="true"></i></button>
+                      </div>
+                    </div>	
+                   				
+                  </form>
+                </div>
+              </div>
+
+						</div>
+					</div> <!-- //row -->
+				</div> <!-- //container -->
+			</div>
+		</section>
+		<!-- ========= //End footer ========= -->
+{% endblock %}
+
+  
